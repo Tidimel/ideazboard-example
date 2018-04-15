@@ -1,4 +1,7 @@
-# MyApp
+# IdeazBoard Angular Example
+This project is created to show, how easy is create something like IdeazBoard.
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
