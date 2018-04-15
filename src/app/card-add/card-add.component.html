@@ -1,0 +1,7 @@
+<div class="card-add-wrapper">
+    <div class="cards-add" *ngIf="!show" (click)="showAdd()">+</div>
+    <div class="cards-form-add" *ngIf="show">
+        <input type="text" class="form-control" [(ngModel)]="cardName" placeholder="Text">
+        <button class="btn btn-primary" type="button" (click)="addCard()">Add</button>
+    </div>
+</div>

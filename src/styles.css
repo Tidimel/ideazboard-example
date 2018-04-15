@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+.cards-col {
+    position:relative;
+}
+.cards {
+    background-color: #ffff88;
+    border: 1px solid #ffff88;
+    font-size: 0.75em;
+    text-overflow: ellipsis;
+    min-height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    position:relative;
+}
+.cards-points {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor:pointer;
+    user-select: none;
+}
+.cards-remove {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor:pointer;
+    user-select: none;
+}
+.column-name{
+    position:relative;
+}
+.cards-add {
+    border-radius: 50%;
+    background: #279f43;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-add-wrapper {
+    position:relative;
+}
